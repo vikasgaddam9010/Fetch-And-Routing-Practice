@@ -1,0 +1,43 @@
+.link-css {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.text-decoration-none {
+  text-decoration: none;
+  color: black;
+}
+.d-flex {
+  display: flex;
+}
+.img-half-card {
+  width: 400px;
+  height: 250px;
+  margin-right: 20px;
+}
+.avatar-and-img {
+  align-items: center;
+}
+.avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+@media (max-width: 576px) {
+  .img-half-card {
+    width: 250px;
+    height: 170px;
+    margin-right: 15px;
+  }
+  .remain-half-container {
+    font-size: 11px;
+    padding: 0px;
+  }
+  .avatar-img{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+  }
+}
